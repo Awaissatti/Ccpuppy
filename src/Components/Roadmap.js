@@ -6,100 +6,12 @@ import Img6 from "../Images/icon2.png";
 import Img7 from "../Images/icon3.png";
 import Img8 from "../Images/icon4.png";
 import Img9 from "../Images/icon5.png";
+
+
 export default function Roadmap() {
   return (
     <div className="bg">
-      <div className="Tab"></div>
-      <div className="bg">
-        <div className="container main">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            {/* <a class="navbar-brand" href="#">Navbar</a> */}
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link new active" aria-current="page" href="#">
-                    HOME
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    ROADMAP
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    MINT A PUPPY
-                  </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    'HOW TO...' GUIDES
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        CONNECT TO METAMASK
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        MINT AND SEE YOUR PUP
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        GLOSSARY OF TERMS
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        FAQS
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    THE TOP DOGS
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link new1" href="#">
-                    CONTACT
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
+     
       <hr className="line" />
       <div className="heading text-center pt-5 pb-5">
         <label className="heading">ROADMAP</label>
